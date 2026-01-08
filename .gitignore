@@ -1,0 +1,19 @@
+# Ignore specific project folders
+Extra/
+ISL_Gifs/
+letters/
+logs/
+temp_extract/
+venv/
+
+# Ignore config files
+.hintrc
+
+# Ignore ML model files
+*.h5
+*.keras
+*.tflite
+*.pkl
+sign_model_savedmodel/
+pretrained/
+__pycache__/

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Language Translator</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <!-- Background Glow -->
+    <div class="bg-glow"></div>
+
+    <!-- Main Hero Container -->
+    <div class="hero">
+
+        <div class="brand">
+            <span class="logo">🤟</span>
+            <span class="name">SignTalk AI</span>
+        </div>
+
+        <div class="tag">💾 ML&NLP Based Hearing Impairment Assistant</div>
+
+        <h1>
+            Real Time Audio/Video To <br>
+            Indian Sign Language
+        </h1>
+
+        <p class="subtitle">
+            Speak naturally or sign in ISL and see your words translated into sign language instantly.
+            Designed for accessibility, speed, and real time learning.
+        </p>
+
+        <div class="button-row">
+    <button class="main-btn" onclick="startListening()">🎤 Voice Translation</button>
+    <button class="main-btn camera-btn" onclick="startCamera()">📷 Live Camera</button>
+</div>
+<div class="text-box">
+    <input 
+        type="text" 
+        id="textInput" 
+        placeholder="Type text to translate into sign..." 
+    />
+    <button class="main-btn" onclick="textToSign()">🔤 Text to Sign</button>
+</div>
+
+<div id="spokenText" class="spoken-text"></div>
+
+<div class="output-box large-box">
+    <div id="output"></div>
+
+   <img id="cameraFeed" class="camera-feed" style="display:none;" />
+
+</div>
+
+<div class="tag">Developed with ❤️ by Carol, Aastha, Anushka & Aastha for Indian Sign Language Translation</div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

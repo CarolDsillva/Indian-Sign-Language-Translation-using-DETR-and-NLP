@@ -1,0 +1,24 @@
+# Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Computer Vision
+opencv-python==4.8.0.76
+numpy==1.24.3
+
+# Deep Learning
+tensorflow==2.13.0
+
+# Speech Recognition
+SpeechRecognition==3.10.0
+pyaudio==0.2.13
+
+# NLP Libraries
+spacy==3.6.1
+transformers==4.33.0
+torch==2.0.1
+nltk==3.8.1
+
+# Additional utilities
+scikit-learn==1.3.0
+pandas==2.0.3
